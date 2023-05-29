@@ -9,7 +9,7 @@ function createTable() {
   const table = document.getElementById('myTable');
 
   // Clear the existing table
-  table.innerHTML = '';
+ // table.innerHTML = '';
 
   // Create the table rows and columns
   for (let i = 0; i < numRows; i++) {
@@ -22,7 +22,7 @@ function createTable() {
 }
 
 // Get the button element
-const createBtn = document.getElementById('createBtn');
+// const createBtn = document.getElementById('createBtn');
 
-// Add click event listener to the button
-createBtn.addEventListener('click', createTable);
+// // Add click event listener to the button
+// createBtn.addEventListener('click', createTable);
